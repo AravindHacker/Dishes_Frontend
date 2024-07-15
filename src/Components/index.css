@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.dish-container {
+    background-color: darkseagreen;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.dish-header {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:darkorange;
+    font-size: 40px;
+    font-weight: bolder;
+   padding-top: 30px;  
+
+}
+
+.each-dish {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10em;
+    margin: 20px;
+    margin-top: 5em;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.separate-dish-box {
+    background-color: bisque;
+    padding: 20px;
+    width: 20em;
+    height: 27em;
+    border-radius: 50px;
+    box-shadow: 0 0 20px black;
+}
+
+.dish-name {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.dish-image {
+    width: 17em;
+    height: 17em;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.toggel-btn {
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+    margin-left: 90px;
+    background-color: aqua;
+    border-radius: 15px;
+    transition: 2s;
+}
+
+.toggel-btn:hover {
+    background-color: brown;
+    width: 10em;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .each-dish {
+        margin: 0;
+        padding-left: 13px;
+        margin-left: 0;
+        gap: 5em;
+        flex-direction: column;
+        align-items: center;
+    }
+    .separate-dish-box {
+        background-color: bisque;
+        padding: 10px;
+        width: 17em;
+        height: 23em;
+        border-radius: 30px;
+    }
+    .dish-image {
+        width: 13em;
+        height: 13em;
+        border-radius: 30px;
+        padding-left: 20px;
+    }
+    .toggel-btn{
+        margin-left: 3em;
+    
+    }
+    .toggel-btn:hover {
+        background-color: #a52a2a;
+        width: 7em;
+        margin-left: 50px;
+    }
+}
+@media screen and (min-width:769px ) and (max-width:992px ) {
+    .each-dish{
+        margin-left: 0px;
+        gap:50px;
+    }
+    
+}
