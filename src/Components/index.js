@@ -3,7 +3,7 @@ import axios from 'axios';
 import { io } from 'socket.io-client';
 import './index.css';
 
-const backendUrl = 'https://dishes-dashboard-bq90.onrender.com'; // Use your Render backend URL here
+const backendUrl = 'https://dishes-backend-93mv.onrender.com'; // Use your Render backend URL here
 
 const socket = io(backendUrl);
 
