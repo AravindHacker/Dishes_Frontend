@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AravindHacker/Dishes_Frontend.git/static/css/main.4ff3548b.css",
+    "main.js": "/AravindHacker/Dishes_Frontend.git/static/js/main.9af4d098.js",
+    "static/js/787.d3befce1.chunk.js": "/AravindHacker/Dishes_Frontend.git/static/js/787.d3befce1.chunk.js",
+    "index.html": "/AravindHacker/Dishes_Frontend.git/index.html",
+    "main.4ff3548b.css.map": "/AravindHacker/Dishes_Frontend.git/static/css/main.4ff3548b.css.map",
+    "main.9af4d098.js.map": "/AravindHacker/Dishes_Frontend.git/static/js/main.9af4d098.js.map",
+    "787.d3befce1.chunk.js.map": "/AravindHacker/Dishes_Frontend.git/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ff3548b.css",
+    "static/js/main.9af4d098.js"
+  ]
+}
